@@ -9,7 +9,6 @@ import { formatters, type FormatType } from "./_utils/converters";
 const fileExtensions: Record<FormatType, string> = {
   json: 'json',
   csv: 'csv',
-  xml: 'xml',
 };
 
 export default function Home() {
