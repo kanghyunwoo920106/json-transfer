@@ -7,6 +7,7 @@ import JsonInput from "./_components/JsonInput";
 import { formatters, type FormatType } from "./_utils/converters";
 
 const fileExtensions: Record<FormatType, string> = {
+  csv: 'csv',
   json: 'json',
 };
 
